@@ -14,8 +14,12 @@ board = turtle.Turtle()
 # creating a square
 for i in range(4):
 	board.forward(100)
+	val=turtle.heading()
+	turtle.write(str(val))
 	board.left(90)
 	i = i+1
+
+turtle.done()
 
 
 
