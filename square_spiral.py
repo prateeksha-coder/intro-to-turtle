@@ -9,4 +9,4 @@ while True: #iterate loop
     my_pen.fd(size)
     my_pen.left(90)
     size = size -5
-  size = size + 1
+  #size = size + 1
